@@ -169,7 +169,7 @@ function defeated(){
     else if (total >= 1.1){
         boss.src = "./bossRes2.png";
     }
-    else if(total >= 1.01){
+    else if(total >= 1.03){
         boss.src = "./bossRes1.png";
     }
     else if (total >= 1){
@@ -201,17 +201,29 @@ const timing = {
 };
 
 function hit(){
-    if(total <= 1){
+    if (total >=1 && total <= 1.04){
+        boss.src = "./youWin.png";
+        setTimeout(youWin, 1000)
+    }
+    if(total < 1){
+        boss.src = "./bossExplos.png";
+        setTimeout(explos, 250);
         boss.animate(shake, timing);
     }
 };
+
 function growing(){
     if (total < 1){
     boss.animate(grow, timing);
     }
 };
 
-
+function explos(){
+    boss.src = "./boss3.0.png"
+}
+function youWin(){
+    boss.src = "./defeated3.0.png";
+}
 
 
 //event listening for above buttons////////////////////////////////
