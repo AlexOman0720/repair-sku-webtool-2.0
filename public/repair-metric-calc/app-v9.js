@@ -1,7 +1,9 @@
 
-// window.onbeforeunload = function() {
-//     return "Data will be lost if you leave the page, are you sure?";
-//   };
+//Keeps you from refreshing on accident
+
+window.onbeforeunload = function() {
+    return "Data will be lost if you leave the page, are you sure?";
+};
 
 // Functionality of the metric calculator itself
 let diags = 0
@@ -78,6 +80,7 @@ function enterDiags(){
     increase();
     updateBars();
 }
+
 
 //NEW STATUS BAR NEW STATUS BAR NEW STATUS BAR NEW STATUS BAR 
 
@@ -173,6 +176,7 @@ function defeated(){
         boss.src = "./bossRes1.png";
     }
     else if (total >= 1){
+
         boss.src = "./defeated3.0.png";
     }
     else{
