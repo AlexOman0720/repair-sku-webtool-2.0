@@ -43,8 +43,8 @@ input{
 }
 
 button{
-	background-color:#ADB5BD;
-	
+	/* background-color:#ADB5BD; */
+	background: linear-gradient(rgb(212, 212, 212) 45%, rgb(167, 167, 167) 55%);
 	font-size:1.2rem;
 	color:black;
 	border: 1px solid #F4B400;
