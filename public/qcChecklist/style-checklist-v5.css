@@ -81,11 +81,11 @@ input[type="reset"]{
 		pointer-events: auto;
 	
 }
-.reset:hover{
+.chkBtn:hover{
 	transform: translateY(-.2em);
 	border: 2px solid rgb(255, 255, 255);
   }
-.reset:active{
+.chkBtn:active{
 	transform: translateY(-.6em);
   }
 
