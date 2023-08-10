@@ -9,6 +9,22 @@ body{
 	justify-content: center;
 	
 }
+main{
+	display: flex;
+	flex-direction: column;
+}
+#modules{
+	color: rgb(212, 204, 193);
+	font-size:1.5rem;
+	text-decoration: none;
+	border: 2px solid ;
+	border-color: #ADB5BD;	
+	border-radius: 10px;
+	font-family:inherit;
+	margin: 1px;
+	padding:7px;
+	width: min-content;
+}
 .card h1{
 	text-align: center;
 	margin-top: 12px;
