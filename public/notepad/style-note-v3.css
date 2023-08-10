@@ -9,9 +9,11 @@ body{
 	justify-content: center;
 	
 }
-
+main{
+	display: flex;
+	flex-direction: column;
+}
 .box{
-    margin-top: 30px;
 	min-width: 480px;
 	max-width: 500px;
 }
@@ -46,4 +48,16 @@ body{
 	font-size: 24px;
 	font-family:sans-serif;
 	color: #ffffff;
+}
+#modules{
+	color: rgb(212, 204, 193);
+	font-size:1.5rem;
+	text-decoration: none;
+	border: 2px solid ;
+	border-color: #ADB5BD;	
+	border-radius: 10px;
+	font-family:inherit;
+	margin: 1px;
+	padding:7px;
+	width: min-content;
 }
