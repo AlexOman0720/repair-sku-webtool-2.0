@@ -26,3 +26,7 @@ document.querySelector("#linkFive").addEventListener("click", () => {
 document.querySelector("#linkSix").addEventListener("click", () => {
     previewWindow.src = "ExtraButtons.html";
 })
+
+document.querySelector("#linkSeven").addEventListener("click", () => {
+    previewWindow.src = "Tech Room Flow Chart (1).pdf";
+})
